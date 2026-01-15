@@ -46,15 +46,64 @@ Follow this template:
 
 ## 📸 Screenshots / Videos
 
-[Add visual evidence if UI changes are involved]
+<table>
+  <thead>
+    <tr>
+      <th>Android</th>
+      <th>iOS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img width="400" src="[Android screenshot URL]" alt="Android Screenshot" /></td>
+      <td><img width="400" src="[iOS screenshot URL]" alt="iOS Screenshot" /></td>
+    </tr>
+  </tbody>
+</table>
 
-- Before: [Screenshot/video]
-- After: [Screenshot/video]
+<table>
+  <thead>
+    <tr>
+      <th>Mobile</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><img width="846" height="821" src="[Mobile screenshot URL]" alt="Mobile Screenshot" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tablet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><img width="846" height="821" src="[Tablet screenshot URL]" alt="Tablet Screenshot" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Desktop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><img width="846" height="821" src="[Desktop screenshot URL]" alt="Desktop Screenshot" /></td>
+    </tr>
+  </tbody>
+</table>
 ```
 
 ### Step 4: Present Proposal
 
-1. Display the complete PR description to the developer
+1. Display the PR description to the developer **excluding the Screenshots/Videos section** (for better readability)
 2. Ask: **"Approve this PR description? (yes/edit/cancel)"**
 
 ### Step 5: Handle Feedback
